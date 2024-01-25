@@ -195,7 +195,7 @@ class ListNews extends StatelessWidget {
           ListView.builder(
             primary: true,
             shrinkWrap: true,
-            itemCount: 5,
+            itemCount: 8,
             physics: const NeverScrollableScrollPhysics(),
             itemBuilder: (_, index) {
               return ListTile(
